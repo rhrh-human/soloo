@@ -1,0 +1,59 @@
+body {
+  height: 100vh;
+  width: 100vh;
+  background: linear-gradient(
+    rgba(255, 184, 251, 0.767),
+    rgba(209, 110, 255, 0.815)
+  );
+  font-family: Pretendard, -apple-system, "Signika Negative", sans-serif,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell,
+    "Open Sans", "Helvetica Neue", sans-serif;
+}
+.all {
+  height: 100vh;
+  width: 100vh;
+}
+.main_title {
+  height: 15vh;
+  width: 100vh;
+  font-size: 25px;
+}
+.question {
+  height: 85vh;
+  width: 100vh;
+  font-size: 21px;
+}
+.main_title_text {
+  border-bottom: solid 3px;
+  padding: 3px;
+}
+.question_title {
+  height: 43vh;
+  width: 100vh;
+}
+.link,
+.link1 {
+  height: 3vh;
+  width: 11vh;
+  background-color: rgb(235, 235, 235);
+  border: 3px solid;
+  border-radius: 10px;
+}
+.link,
+.choice {
+  height: 42vh;
+  width: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.link {
+  margin: 10px;
+  padding: 23px;
+  height: 3vh;
+  width: 33vh;
+}
+a {
+  color: black;
+}
